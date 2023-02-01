@@ -1,0 +1,57 @@
+.initial-table {
+    padding: 50px;
+}
+
+.form-group {
+    width: 1350px;
+    margin: 40px auto;
+    grid-gap: 40px;
+    text-align: left;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.opcionales {
+    text-align: left;
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
+.formkit-outer {
+    margin: 5px 0;
+    padding: 5px;
+    overflow: hidden;
+}
+
+input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid rgb(40, 210, 150);
+    padding: 14px;
+    transition: .3s ease;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 0 1px 0 0 rgb(40, 210, 150);
+}
+
+/* Estilos opcionales */
+
+.form-group.row-opcionales {
+    margin-top: 15px;
+}
+
+.row-opcionales .column-opcionales {
+    display: flex; 
+    flex-direction: column;
+}
+
+.column-opcionales .formkit-label { 
+    font-weight: 600; 
+    font-size: 15px;
+}
+
+#checkWP {
+    width: auto;
+}
